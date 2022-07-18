@@ -16,15 +16,17 @@
 }
 
 .calc {
-  background-color: var(--white);
+  background-color: #222;
   box-shadow: 0 0 10px #ccc;
   border-radius: 8px;
   padding: 30px 20px;
 }
 .calc__brand {
+  color: var(--white);
   text-align: end;
 }
 .calc__display {
+  height: 27px;
   text-align: end;
   background-color: var(--gray);
   padding: 4px;
@@ -32,9 +34,15 @@
 .calc__buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 2px;
 }
 .calc__button {
+  background-color: #9000ff;
+  font-size: 1rem;
+  border: 0;
   width: 30px;
   height: 30px;
+}
+
+.calc__button:hover {
+  background-color: #7601d1;
 }
