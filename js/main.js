@@ -4,10 +4,5 @@ const display = document.querySelector('.calc__display');
 for (const button of buttons) {
   button.addEventListener('click', () => {
     const value = button.getAttribute('data-value');
-
-    switch (value) {
-      case 'DELETE':
-        display.innerText = ' ';
-    }
   });
 }
