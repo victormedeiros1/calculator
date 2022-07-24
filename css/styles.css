@@ -14,13 +14,14 @@
 
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 40px;
 }
 
 .calc {
   background-image: linear-gradient(var(--green), #07d7b8);
   box-shadow: 0 0 10px var(--gray);
   border-radius: 8px;
+  height: 530px;
 }
 .calc__display {
   font-size: 3rem;
@@ -37,7 +38,7 @@
   font-weight: bold;
   background-color: transparent;
   border: 0;
-  padding: 2rem;
+  padding: 1.5rem;
 }
 
 .calc__button:hover {
